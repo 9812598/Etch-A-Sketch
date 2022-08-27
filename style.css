@@ -10,7 +10,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
   flex-direction: column;
 }
@@ -29,6 +29,7 @@ h1 {
   align-items: center;
   max-width: 960px;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 
@@ -36,15 +37,14 @@ h1 {
   width: 20px;
   height: 20px;
   background: #1d1d1d;
-  /* margin: 2px; */
   box-shadow: 0 0 2px #000;
   transition: .3s ease;
 }
 
-.hovered{
-  background-color: rgb(177, 23, 23);
-  box-shadow: 0 0 2px rgb(177, 23, 23), 0 0 10px rgb(177, 23, 23);
-}
+/* .hovered{
+  background-color: #DC143C;
+  box-shadow: 0 0 2px #DC143C, 0 0 10px #DC143C;
+} */
 
 .range{
   margin: 20px;
@@ -65,4 +65,29 @@ h1 {
 .slidecontainer{
   display: flex;
   flex-direction: column;
+  margin: 50px 0;
+}
+
+.input {
+  margin: .4rem;
+}
+
+.maincontainer{
+  display: flex;
+}
+
+.characteristics{
+  margin-right: 70px;
+}
+
+.color{
+  margin-bottom: 50px;
+}
+
+.reset{
+  padding: 5px 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
 }

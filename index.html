@@ -10,15 +10,33 @@
 </head>
 <body>
     <h1>Etch-A-Sketch</h1>
+    <div class="maincontainer">
+        <div class="characteristics">
+
     <div class = 'slidecontainer'>
         <input class='slider' type="range" id="my range" name="number" min="16" max="50">
         <label for="number">Number is <span class="number__span">16</span></label>
     </div>
-    <div class='container' id="container">
+    <div class="color">
+        <p>Choose your colors:</p>
+
+        <div>
+            <input type="color" id="color" name="color"
+           value="#DC143C">
+            <label for="color">Choose your color</label>
+        </div>
+    </div>
+    <button class="reset">
+        Reset
+    </button>
+
+        </div>
+
+        <div class='container' id="container">
         
         
     </div>
-
+</div>
 
     <script src="./main.js"></script>
 </body>
